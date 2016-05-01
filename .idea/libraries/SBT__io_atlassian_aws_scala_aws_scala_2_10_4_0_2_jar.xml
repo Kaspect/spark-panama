@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: io.atlassian.aws-scala:aws-scala_2.10:4.0.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.atlassian.aws-scala/aws-scala_2.10/jars/aws-scala_2.10-4.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.atlassian.aws-scala/aws-scala_2.10/srcs/aws-scala_2.10-4.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: io.atlassian:kadai-config_2.10:4.0.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.atlassian/kadai-config_2.10/jars/kadai-config_2.10-4.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.atlassian/kadai-config_2.10/srcs/kadai-config_2.10-4.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
