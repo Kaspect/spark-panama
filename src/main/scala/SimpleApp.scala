@@ -24,8 +24,8 @@ object SimpleApp {
     data
   }
   def main(args: Array[String]) {
-  	val awsKey = "AKIAIYQGAK2RABXX2GKA"
-  	val awsSecret = "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"
+  	val awsKey = "AKIAIYfsddfsQGAK2RABXX2GKA"
+  	val awsSecret = "DNXUyl3SygMR3b+2QVpfdsdsfobk9twUrXH"
   	val bucket = "latest-commoncrawl"
   	val keys = get_keys_from_s3_bucket(awsKey, awsSecret, bucket, 100)
   	def s3 = new AmazonS3Client(new BasicAWSCredentials(awsKey, awsSecret))
