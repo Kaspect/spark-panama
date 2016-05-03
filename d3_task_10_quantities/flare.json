@@ -110,7 +110,7 @@
    ]
   },
   {
-   "name": "Part_c - Statistics for one domain 'www'",
+   "name": "Part_c - 'http://polar.usc.edu/6f'",
    "children": [
     {
      "name": "%",
@@ -145,12 +145,48 @@
    ]
   },
   {
-   "name": "Part_d",
+   "name": "Part_d - Only PDF files",
    "children": [
-    {"name": "DirtySprite", "size": 8833},
-    {"name": "LineSprite", "size": 1732},
-    {"name": "RectSprite", "size": 3623},
-    {"name": "TextSprite", "size": 10066}
+{
+     "name": "months",
+     "children": [
+      {"name": "Max: 4", "size": 3534},
+      {"name": "Average: 4", "size": 5731},
+      {"name": "Min: 4", "size": 5731}
+
+     ]
+    },
+
+    {
+     "name": "%",
+     "children": [
+      {"name": "Max: 10", "size": 3534},
+      {"name": "Average: 5.0", "size": 5731},
+      {"name": "Min: 0.0", "size": 5731}
+
+     ]
+    },
+
+    {
+     "name": "days",
+     "children": [
+      {"name": "Max: 2", "size": 3534},
+      {"name": "Average: 1.55", "size": 5731},
+      {"name": "Min: 1", "size": 5731}
+
+     ]
+    },
+
+
+    {
+     "name": "minutes",
+     "children": [
+      {"name": "Max: 12", "size": 3534},
+      {"name": "Average: 7.82", "size": 5731},
+      {"name": "Min: 6", "size": 5731}
+
+     ]
+    }
    ]
   },
   {
