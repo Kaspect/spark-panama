@@ -15,7 +15,7 @@ do
                 file_size="$(du -b $fn | sed 's/\.\/.*//')"
                 meta_data_size="$(du -b $fn_json | sed 's/\.\/.*//')"
 		text_data_size="$(du -b $fn_txt | sed 's/\.\/.*//')"
-		parser_call_chain="$(java -jar $TIKA_APP $fn grep -i | X-Parsed-By | sed 's/^.*content="//' | sed 's/"\/>//' | sed 'N;s/\n/, /')"
+		parser_call_chain="$(java -jar $TIKA_APP $fn | grep -i X-Parsed-By | sed 's/^.*content="//' | sed 's/"\/>//' | sed 'N;s/\n/, /')"
                 printf "$fn	$file_size	$meta_data_size	$text_data_size	$parser_call_chain\n" >> $output
         done < $file_list
 done
