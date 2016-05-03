@@ -110,24 +110,38 @@
    ]
   },
   {
-   "name": "Part_c",
+   "name": "Part_c - Statistics for one domain 'www'",
    "children": [
     {
-     "name": "converters",
+     "name": "%",
      "children": [
-      {"name": "Converters", "size": 721},
-      {"name": "DelimitedTextConverter", "size": 4294},
-      {"name": "GraphMLConverter", "size": 9800},
-      {"name": "IDataConverter", "size": 1314},
-      {"name": "JSONConverter", "size": 2220}
+      {"name": "Max: 10", "size": 3534},
+      {"name": "Average: 10", "size": 5731},
+      {"name": "Min: 10", "size": 5731}
+
      ]
     },
-    {"name": "DataField", "size": 1759},
-    {"name": "DataSchema", "size": 2165},
-    {"name": "DataSet", "size": 586},
-    {"name": "DataSource", "size": 3331},
-    {"name": "DataTable", "size": 772},
-    {"name": "DataUtil", "size": 3322}
+
+    {
+     "name": "minutes",
+     "children": [
+      {"name": "Max: 14", "size": 3534},
+      {"name": "Average: 14", "size": 5731},
+      {"name": "Min: 14", "size": 5731}
+
+     ]
+    },
+
+
+    {
+     "name": "cm",
+     "children": [
+      {"name": "Max: 4", "size": 3534},
+      {"name": "Average: 2.5", "size": 5731},
+      {"name": "Min: 1", "size": 5731}
+
+     ]
+    }
    ]
   },
   {
