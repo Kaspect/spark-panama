@@ -2,7 +2,7 @@
  "name": "Measurement ",
  "children": [
   {
-   "name": "Part_a",
+   "name": "Part_a - Descriptive Statistics on Measurements",
    "children": [
 
 
@@ -58,6 +58,17 @@
      ]
     },
 
+
+    {
+     "name": "F",
+     "children": [
+      {"name": "Max: 212", "size": 3534},
+      {"name": "Average: 45.9", "size": 5731},
+      {"name": "Min: -100.2", "size": 5731}
+
+     ]
+    },
+
        {
      "name": "C",
      "children": [
@@ -70,33 +81,32 @@
    ]
   },
   {
-   "name": "Part_b",
+   "name": "Part_b - Computed for all temperature",
    "children": [
-    {"name": "Easing", "size": 17010},
-    {"name": "FunctionSequence", "size": 5842},
     {
-     "name": "interpolate",
+     "name": "measurement values",
      "children": [
-      {"name": "ArrayInterpolator", "size": 1983},
-      {"name": "ColorInterpolator", "size": 2047},
-      {"name": "DateInterpolator", "size": 1375},
-      {"name": "Interpolator", "size": 8746},
-      {"name": "MatrixInterpolator", "size": 2202},
-      {"name": "NumberInterpolator", "size": 1382},
-      {"name": "ObjectInterpolator", "size": 1629},
-      {"name": "PointInterpolator", "size": 1675},
-      {"name": "RectangleInterpolator", "size": 2042}
+    {
+     "name": "F",
+     "children": [
+      {"name": "Max: 212", "size": 3534},
+      {"name": "Average: 45.9", "size": 5731},
+      {"name": "Min: -100.2", "size": 5731}
+
      ]
     },
-    {"name": "ISchedulable", "size": 1041},
-    {"name": "Parallel", "size": 5176},
-    {"name": "Pause", "size": 449},
-    {"name": "Scheduler", "size": 5593},
-    {"name": "Sequence", "size": 5534},
-    {"name": "Transition", "size": 9201},
-    {"name": "Transitioner", "size": 19975},
-    {"name": "TransitionEvent", "size": 1116},
-    {"name": "Tween", "size": 6006}
+
+       {
+     "name": "C",
+     "children": [
+      {"name": "Max: 70", "size": 3534},
+      {"name": "Average: 19", "size": 5731},
+      {"name": "Min: -115", "size": 5731}
+
+     ]
+    }
+     ]
+    }
    ]
   },
   {
@@ -127,6 +137,14 @@
     {"name": "LineSprite", "size": 1732},
     {"name": "RectSprite", "size": 3623},
     {"name": "TextSprite", "size": 10066}
+   ]
+  },
+  {
+   "name": "EXTRA CREDIT - Combining Temperatures both into C",
+   "children": [
+    {"name": "Combined Max: 100.0", "size": 8833},
+    {"name": "Combined Average: 12.55", "size": 1732},
+    {"name": "Combined Min:-115.0", "size": 3623}
    ]
   }
  ]
