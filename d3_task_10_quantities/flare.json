@@ -1,0 +1,133 @@
+{
+ "name": "Measurement ",
+ "children": [
+  {
+   "name": "Part_a",
+   "children": [
+
+
+    {
+     "name": "Accent",
+     "children": [
+      {"name": "Max: 5", "size": 3534},
+      {"name": "Average: 2.45", "size": 5731},
+      {"name": "Min: 1", "size": 5731}
+
+     ]
+    },
+
+    {
+     "name": "%",
+     "children": [
+      {"name": "Max: 120", "size": 3534},
+      {"name": "Average: 21.25", "size": 5731},
+      {"name": "Min: 0.0", "size": 5731}
+
+     ]
+    },
+
+    {
+     "name": "years",
+     "children": [
+      {"name": "Max: 28", "size": 3534},
+      {"name": "Average: 3.6", "size": 5731},
+      {"name": "Min: 2", "size": 5731}
+
+     ]
+    },
+
+
+    {
+     "name": "minutes",
+     "children": [
+      {"name": "Max: 90", "size": 3534},
+      {"name": "Average: 8.25", "size": 5731},
+      {"name": "Min: 2", "size": 5731}
+
+     ]
+    },
+
+
+    {
+     "name": "cm",
+     "children": [
+      {"name": "Max: 28", "size": 3534},
+      {"name": "Average: 8", "size": 5731},
+      {"name": "Min: 1", "size": 5731}
+
+     ]
+    },
+
+       {
+     "name": "C",
+     "children": [
+      {"name": "Max: 70", "size": 3534},
+      {"name": "Average: 19", "size": 5731},
+      {"name": "Min: -115", "size": 5731}
+
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Part_b",
+   "children": [
+    {"name": "Easing", "size": 17010},
+    {"name": "FunctionSequence", "size": 5842},
+    {
+     "name": "interpolate",
+     "children": [
+      {"name": "ArrayInterpolator", "size": 1983},
+      {"name": "ColorInterpolator", "size": 2047},
+      {"name": "DateInterpolator", "size": 1375},
+      {"name": "Interpolator", "size": 8746},
+      {"name": "MatrixInterpolator", "size": 2202},
+      {"name": "NumberInterpolator", "size": 1382},
+      {"name": "ObjectInterpolator", "size": 1629},
+      {"name": "PointInterpolator", "size": 1675},
+      {"name": "RectangleInterpolator", "size": 2042}
+     ]
+    },
+    {"name": "ISchedulable", "size": 1041},
+    {"name": "Parallel", "size": 5176},
+    {"name": "Pause", "size": 449},
+    {"name": "Scheduler", "size": 5593},
+    {"name": "Sequence", "size": 5534},
+    {"name": "Transition", "size": 9201},
+    {"name": "Transitioner", "size": 19975},
+    {"name": "TransitionEvent", "size": 1116},
+    {"name": "Tween", "size": 6006}
+   ]
+  },
+  {
+   "name": "Part_c",
+   "children": [
+    {
+     "name": "converters",
+     "children": [
+      {"name": "Converters", "size": 721},
+      {"name": "DelimitedTextConverter", "size": 4294},
+      {"name": "GraphMLConverter", "size": 9800},
+      {"name": "IDataConverter", "size": 1314},
+      {"name": "JSONConverter", "size": 2220}
+     ]
+    },
+    {"name": "DataField", "size": 1759},
+    {"name": "DataSchema", "size": 2165},
+    {"name": "DataSet", "size": 586},
+    {"name": "DataSource", "size": 3331},
+    {"name": "DataTable", "size": 772},
+    {"name": "DataUtil", "size": 3322}
+   ]
+  },
+  {
+   "name": "Part_d",
+   "children": [
+    {"name": "DirtySprite", "size": 8833},
+    {"name": "LineSprite", "size": 1732},
+    {"name": "RectSprite", "size": 3623},
+    {"name": "TextSprite", "size": 10066}
+   ]
+  }
+ ]
+}
